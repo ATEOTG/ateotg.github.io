@@ -11,7 +11,7 @@ function Home() {
         
         <img src={logo} className="App-logo" alt="logo" />
         <h1 >
-          My Name is Bryan De Los Santos!
+          Bryan De Los Santos
         </h1>
          
          <img src = {anime} className = "anime-tion" />

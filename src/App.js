@@ -8,7 +8,7 @@ import ContactMe from './components/ContactMe';
 
 function App() {
   return (
-    <div className="App">
+    <html className="App">
        
        <nav>
             <Link to ="/"> Home </Link>
@@ -33,7 +33,7 @@ function App() {
           <Route path="contact"  element = {<ContactMe />} />
         </Routes>
       
-    </div>
+    </html>
   );
 }
 
