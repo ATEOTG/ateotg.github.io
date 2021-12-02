@@ -5,11 +5,9 @@ function About() {
     return(
         <>
         <main>
-            <h2> Who are we?</h2>
+            <h2> This is the About page </h2>
         </main>
-        <nav>
-            <Link to ="/"> Home </Link>
-        </nav>
+
         </>
         );
 }

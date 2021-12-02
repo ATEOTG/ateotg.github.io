@@ -6,11 +6,8 @@ function Home() {
     return(
         <>
         <main>
-            <h2> This is Home </h2>
+            <h2> This is the Home page </h2>
         </main>
-        <nav>
-            <Link to ="about"> About </Link>
-        </nav>
         </>
         );
 }
