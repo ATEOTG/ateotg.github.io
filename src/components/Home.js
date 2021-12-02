@@ -1,14 +1,23 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import logo from "../bryandelossantos.png";
+import anime from "../animesmoker.gif"
+import "../css/Home.css"
 
 
 function Home() {
     return(
-        <>
-        <main>
-            <h2> This is the Home page </h2>
-        </main>
-        </>
+        <div className = "Homebg">
+        
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1 >
+          My Name is Bryan De Los Santos!
+        </h1>
+         
+         <img src = {anime} className = "anime-tion" />
+        
+
+        </div>
         );
 }
 
