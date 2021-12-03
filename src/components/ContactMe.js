@@ -26,7 +26,8 @@ class ContactMe extends Component {
 
     submitForm = (event) => {
         alert("Hello " + this.state.name + ", your message was sent successfully!" );
-        
+        document.getElementById("msg").reset();
+        event.preventDefault();
     }
 
     render(){
