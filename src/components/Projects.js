@@ -1,6 +1,6 @@
 import React from "react";
-import {Routes, Route, Link} from "react-router-dom";
-import Project1 from "../components/Project1.js";
+import {Link} from "react-router-dom";
+
 
 function Projects() {
 
