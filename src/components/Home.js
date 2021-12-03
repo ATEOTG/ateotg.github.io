@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import logo from "../bryandelossantos.png";
 import anime from "../animesmoker.gif"
 import "../css/Home.css"

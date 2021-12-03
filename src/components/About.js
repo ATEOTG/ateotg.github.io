@@ -1,5 +1,4 @@
 import React from "react";
-import {Routes, Route, Link} from "react-router-dom";
 import "../css/About.css"
 import resumepdf from "../Resume.pdf"
 
