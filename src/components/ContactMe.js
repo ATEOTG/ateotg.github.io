@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom";
 
 class ContactMe extends Component {
     
@@ -26,7 +25,7 @@ class ContactMe extends Component {
     }
 
     submitForm = (event) => {
-        alert("Hello, " + this.state.name + " your message sent successfully!" );
+        alert("Hello " + this.state.name + ", your message was sent successfully!" );
         
     }
 
@@ -36,27 +35,28 @@ class ContactMe extends Component {
         <div>
         
             <div>
-            <h2> Contact Information: </h2>
+            <h1> Contact Information: </h1>
             <h3> Email: bryansantos9797@gmail.com </h3>
             </div>
 
             <form id = "msg">
-                <h4> Name </h4>
+                <h4> Name: </h4>
                 <input type = "text" id = "name" onChange = {this.handleChange}/>
 
                 <br/>
 
-                <h4> Email </h4>
+                <h4> Email: </h4>
                 <input type = "text" id = "email" onChange = {this.handleChange}/>
 
                 <br/>
 
-                <h4> Message </h4>
-                <input type = "text" id = "message" onChange = {this.handleChange}/>
+                <h4> Short Message: </h4>
+                <input type = "text" id = "message" onChange = {this.handleChange}
+                />
                 
                 <br/>
                 
-                <button onClick = {this.submitForm}> Submit </button>
+                <button onClick = {this.submitForm} style = {{height:55,width:70, marginTop:50}}> Submit </button>
 
             </form>
         
